@@ -1,3 +1,5 @@
+import math
+
 x=1
 x=1.0
 x=  1+3j #a+bi
@@ -17,3 +19,5 @@ print(x )
 
 print(round(2.9))
 print(abs(-9))
+print(abs(3)) #makes the  number positive
+print(math.ceil(55.555))
