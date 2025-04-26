@@ -1,6 +1,6 @@
 str="sandhya"
 print(len(str))
-
+#immutable like in java
 print(str[0])
 # -1 represents the end of the string
 # print(str[-1])
