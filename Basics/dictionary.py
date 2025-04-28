@@ -30,7 +30,12 @@ student={
     }
 }
 # print(student.values())
-print(list(student.keys()))
-print(len(student))
+# print(list(student.keys()))
+# print(len(student))
 # print(student.items())
-# print(student.get("name"))
+print(student.get("name")) #none if is no any kay
+print(student["name"]) #error if there is no any key and no execution of code after this
+# print(tuple(student.items()))
+student.update({"city":"sunwal"})
+print(student)
+#override huncha ani duplicate keys hunna
