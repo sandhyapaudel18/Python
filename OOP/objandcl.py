@@ -23,7 +23,7 @@ class Cars:
       #self.=diff objects have different values
  def __init__(self,name): #name attribute jun user gave via constructor
         self.name=name #self wala object lai refer garne
-        pass
+        
 
 c1=Cars("honda")
 c2=Cars("porsche")
@@ -37,7 +37,7 @@ class Student:
     
     def __init__(self,name):
         self.name=name
-        pass
+        
 
 s1=Student("sandhya")  
 print(s1.name)  
