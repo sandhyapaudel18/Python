@@ -13,12 +13,12 @@
 class Person:
     __name="unknow"
     
-    def __hello(): #such functions are used by some other internal fucntions within the class thats why they are used
-        print("Hello World")
+    def __hello(self): #such functions are used by some other internal fucntions within the class thats why they are used
+        print("from private method")
 
-    def get_value():
-        print("hello world")
-        __hello()    
+    def get_value(self): #here we access private by calling private method from here
+        print("from get method")
+        self.__hello()    
 
 
 #not happening cannot access from outside
