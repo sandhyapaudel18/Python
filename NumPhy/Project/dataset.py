@@ -10,6 +10,9 @@
 
 
 """
+///total revenue
 
 import numpy as np
-revenue=np.array([])
+revenue=np.array([249.99+39.99+12.49+499.99+89.99])
+quantity=np.array([1,2,3,1,1])
+net_revenue= revenue * quantity 
