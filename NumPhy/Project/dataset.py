@@ -10,9 +10,15 @@
 
 
 """
-///total revenue
+# total revenue
 
 import numpy as np
-revenue=np.array([249.99+39.99+12.49+499.99+89.99])
+revenue=np.array([249.99,39.99,12.49,499.99,89.99])
+avg_revenue=np.mean(revenue)
 quantity=np.array([1,2,3,1,1])
-net_revenue= revenue * quantity 
+discount=np.array([5,0,10,15,0])
+net_revenue= (revenue -(discount/100 *revenue) ) * quantity
+
+
+print(avg_revenue)
+print(net_revenue)
