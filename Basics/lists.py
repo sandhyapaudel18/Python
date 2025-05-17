@@ -35,6 +35,6 @@ numbers.remove(20)
 numbers.pop(4)
 print(numbers)
 
-# names=["sandhya","saandhya","aakash"]
-# names.reverse()
-# print(names)
+names=["sandhya","saandhya","aakash"]
+names.reverse()
+print(names)
