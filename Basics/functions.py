@@ -41,7 +41,10 @@ result=multiply(3,4,5,6)
 print(result)
 
  
+def subs(a,b):
+    return a-b;
 
+print(subs(10,30))
  
 
 
